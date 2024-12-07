@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - NexTech | TechStore Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="photo/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+           <a href="index.html"><img src="photo/logo.png" width="125px" class="logo-shadow"></a> 
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html" class="menu">Home</a></li>
+                <li><a href="products.html" class="menu">Products</a></li>
+                <li><a href="about.html" class="menu">About</a></li>
+                <li><a href="" class="menu">Contact</a></li>
+                <li><a href="account.html" class="menu">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"> <img src="photo/cart.png" width="25px" height="25px" class="cart"></a>
+        <img src="photo/menu.png" onclick="menutoggle()" width="25px" class="menu-icon">
+    </div>
+
+
+
+    <!-- --------All products-------- -->
+
+    <div class="row row2">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Sorting</option>
+            <option>Sort by Price</option>
+            <option>Sort by Popularity</option>
+            <option>Sort by Rating</option>
+            <option>Sort by Sale</option>
+
+        </select>
+    </div>
+
+
+    <div class="small-container">
+
+        <div class="row">
+            <div class="col4">
+                <img src="photo/product1.jpg">
+                <h4>Boult K10</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>₹1299.00</p>
+            </div>
+            <div class="col4">
+                <img src="photo/product2.jpg">
+                <h4>Fire-Boltt Phoenix</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₹2999.00</p>
+            </div>
+            <div class="col4">
+                <img src="photo/product3.jpg">
+                <h4>VONTER Smart Glasses</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹1999.00</p>
+            </div>
+            <div class="col4">
+                <img src="photo/product4.jpg">
+                <h4>JBL Go-4</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹1499.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <a href="product-details.html">
+            <div class="col4">
+                <img src="photo/product5.jpg">
+                <h4>boAt Airdopes 141</h4>
+            </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>₹1499.00</p>
+            </div>
+            <div class="col4">
+                <img src="photo/product6.jpg">
+                <h4>DJI Mavic Air 3</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₹8999.00</p>
+            </div>
+            <div class="col4">
+                <img src="photo/product7.jpg">
+                <h4>Sony INZONE H9</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹4999.00</p>
+            </div>
+            <div class="col4">
+                <img src="photo/product8.jpg">
+                <h4>ASUS ROG MMO Mouse</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹1599.00</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col4">
+                <img src="photo/product9.jpg">
+                <h4>boAt Stone 352</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>₹1099.00</p>
+            </div>
+            <div class="col4">
+                <img src="photo/product10.jpg">
+                <h4>Baseus Power Bank</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₹999.00</p>
+            </div>
+            <div class="col4">
+                <img src="photo/product11.jpg">
+                <h4>TELESIN Phone Cooler</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹1499.00</p>
+            </div>
+            <div class="col4">
+                <img src="photo/product12.jpg">
+                <h4>Spbpqy Controller</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹3999.00</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- -------footer-------- -->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col1">
+                   <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="photo/play-store.png">
+                        <img src="photo/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col2">
+                   <img src="photo/logo-white.png">
+                    <p>Our purpose is to bring you the latest tech products, delivering innovation and value at your fingertips.</p>
+                </div>
+                <div class="footer-col3">
+                   <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="">Coupons</a></li>
+                        <li><a href="">Blog Post</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col4">
+                   <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a><li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">© 2024 Your Brand. All rights reserved.</p>
+        </div>
+        
+    </div>
+
+    
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
